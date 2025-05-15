@@ -73,8 +73,8 @@ pm2 start serve -- -s dist -l 5173
 
 Once deployed, your submission URLs will be:
 
-- Backend URL: `http://YOUR_EC2_IP:3001/api/create-answer`
-- Frontend URL: `http://YOUR_EC2_IP:5173`
+- Backend URL: http://54.86.70.179:3001/api/create-answer (for POST) and http://54.86.70.179:3001/api/get-answer (for GET)
+- Frontend URL: http://54.86.70.179:5173/
 
 ## Testing the Deployment
 
